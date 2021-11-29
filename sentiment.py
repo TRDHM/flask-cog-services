@@ -1,8 +1,8 @@
 import os, requests, uuid, json
 
 # Don't forget to replace with your Cog Services subscription key!
-subscription_key = 'YOUR_TEXT_ANALYTICS_SUBSCRIPTION_KEY'
-endpoint = "YOUR_TEXT_ANALYTICS_ENDPOINT" 
+subscription_key = '6edf13c9dfa944f08a4ad91a7af8af24'
+endpoint = "https://cprojecttranslate.cognitiveservices.azure.com/" 
 # Our Flask route will supply four arguments: input_text, input_language,
 # output_text, output_language.
 # When the run sentiment analysis button is pressed in our Flask app,
